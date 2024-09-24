@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+}
+body{
+  background-color:darkcyan;
+  color: black;
+  
+}
+.services{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: ;  
+  margin:0px;
+
+}
+.services a{
+  text-decoration: none;  
+  transition: transform 0.3s ease;  
+}
+.services a:hover{
+  color: brown;
+  transform: scale(1.05);
+}
+.active{
+  color: red !important;
+}
+button{
+  border-radius: 5px;
+  padding: 5px;
+   
+}
+button:hover{
+  color: magenta;
+  background-color: gold;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  text-align: center;
+
+}
+.intro{
+  color:coral;
+}
+.layout{
+  background-image: url(page.jpg);
+  background-size: cover ;
+}
+
